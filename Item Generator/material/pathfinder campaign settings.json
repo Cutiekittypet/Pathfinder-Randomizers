@@ -1,0 +1,30 @@
+[
+    {
+        "name":"aszite",
+        "ac_base":2,
+        "shield_mod":1,
+        "max_dex":3,
+        "armor_check":-5,
+        "spell_failure":15,
+        "weight_mod":1.1,
+        "speed_mod":-1,
+        "damage_up":0,
+        "price_mod":10,
+        "armor_prof":2,
+        "special":["darkness enhancement"]
+    },
+    {
+        "name":"druchite",
+        "ac_base":2,
+        "shield_mod":1,
+        "max_dex":3,
+        "armor_check":-5,
+        "spell_failure":15,
+        "weight_mod":1.1,
+        "speed_mod":-1,
+        "damage_up":0,
+        "price_mod":10,
+        "armor_prof":2,
+        "special":["evasion"]
+    }
+]

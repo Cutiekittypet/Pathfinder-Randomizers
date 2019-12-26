@@ -1,0 +1,38 @@
+{
+	"weapons":[
+		{
+			"name":"underwater heavy crossbow",
+			"size":4,
+			"desc":"You draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a full-round action that provokes attacks of opportunity. A heavy crossbow fires crossbow bolts. Normally, operating a heavy crossbow requires two hands. However, you can shoot, but not load, a heavy crossbow with one hand at a -4 penalty on attack rolls. You can shoot a heavy crossbow with each hand, but you take a penalty on attack rolls as if attacking with two one-handed weapons. This penalty is cumulative with the penalty for one-handed firing.",
+			"damage":{"physical":"1d10"},
+			"crit_range":19,
+			"crit_mult":2,
+			"type":"piercing",
+			"prof":0,
+			"group":["crossbow"],
+			"special":["underwater"],
+			"category":"ranged",
+			"equip_type":"weapon",
+			"weight":8,
+			"range":120,
+			"price":50
+		},
+		{
+			"name":"underwater light crossbow",
+			"size":4,
+			"desc":"You draw a light crossbow back by pulling a lever. Loading a light crossbow is a move action that provokes attacks of opportunity. A light crossbow fires crossbow bolts. Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a -2 penalty on attack rolls. You can shoot a light crossbow with each hand, but you take a penalty on attack rolls as if attacking with two light weapons. This penalty is cumulative with the penalty for one-handed firing.",
+			"damage":{"physical":"1d8"},
+			"crit_range":19,
+			"crit_mult":2,
+			"type":"piercing",
+			"prof":0,
+			"group":["crossbow"],
+			"special":["underwater"],
+			"category":"ranged",
+			"equip_type":"weapon",
+			"weight":4,
+			"range":80,
+			"price":35
+		}
+]
+}

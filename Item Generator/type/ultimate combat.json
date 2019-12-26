@@ -1,0 +1,20 @@
+{
+	"weapons":[
+		{
+			"name":"javelin",
+			"size":4,
+			"desc":"A javelin is a thin throwing spear . Since it is not designed for melee, you are treated as nonproficient with it and take a –4 penalty on attack rolls if you use a javelin as a melee weapon.",
+			"damage":{"physical":"1d6"},
+			"crit_range":20,
+			"crit_mult":2,
+			"type":"piercing",
+			"prof":0,
+			"group":["spear","thrown"],
+			"category":"ranged",
+			"equip_type":"weapon",
+			"weight":2,
+			"range":30,
+			"price":1
+		}
+]
+}

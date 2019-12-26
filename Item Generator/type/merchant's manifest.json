@@ -1,0 +1,20 @@
+{
+    "weapons":[
+        {
+            "name":"baston fighting stick",
+			"size":4,
+			"desc":"These weapons are treated sticks of wood, either left bare or covered in elaborate decorative designs. Baston fighting sticks vary in length from 2 to 4 feet, with thicknesses varying between 1 to 3 inches. In most applications, these weapons are similar to clubs or quarterstaffs, but in the hands of a trained expert, they truly shine. A creature with the Combat Reflexes feat treats the weapon as having the blocking and performance weapon special features.",
+			"damage":{"physical":"1d6"},
+			"crit_range":20,
+			"crit_mult":2,
+			"type":"bludgeoning",
+			"prof":0,
+			"group":["hammer"],
+			"category":"one-handed",
+			"equip_type":"weapon",
+			"weight":2,
+			"range":0,
+			"price":10
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+[
+    {
+        "name":"bulette",
+        "ac_base":2,
+        "shield_mod":1,
+        "max_dex":4,
+        "armor_check":-4,
+        "spell_failure":20,
+        "weight_mod":1.25,
+        "speed_mod":-1,
+        "damage_up":0,
+        "price_mod":10,
+        "armor_prof":2
+    }
+]

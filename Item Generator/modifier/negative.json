@@ -1,0 +1,24 @@
+[
+    {
+        "prefix":["broken","damaged","useless"],
+        "suffix":["uselessness"],
+        "weapon":{},
+        "equipment":
+        {
+            "special":["broken"]
+        }
+    },
+    {
+        "prefix":["ersatz","inferior","poor","crappy"],
+        "suffix":["inferiority","crap"],
+        "weapon":
+        {
+            "damage_bonus":{"physical":-1}
+        },
+        "equipment":
+        {
+            "price":0.3,
+            "bonus":-1
+        }
+    }
+]

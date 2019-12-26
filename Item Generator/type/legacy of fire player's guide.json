@@ -1,0 +1,25 @@
+{
+	"shield":[
+        {
+            "name":"madu",
+            "size":4,
+            "desc":"If you are proficient with the madu, you may wield it and fight defensively with a –2 penalty instead of the normal–4 penalty for fighting defensively, and your attack penalty for using Combat Expertise improves by +1 (minimum –1 penalty). You cannot hold anything else in the hand that bears a madu. If you are not proficient in madu, treat it as a light spiked shield.",
+            "subtype":"shield",
+            "equip_type":"armor",
+            "group":["close","heavy blade"],
+            "check_penalty":-2,
+            "prof":2,
+            "damage":{"physical":"1d6"},
+            "crit_range":20,
+            "crit_mult":2,
+            "type":"piercing",
+            "category":"one-handed",
+            "bonus":1,
+            "max_dex":-1,
+            "spell_failure":5,
+            "speed_penalty":0,
+            "weight":5,
+            "price":4
+        }
+]
+}

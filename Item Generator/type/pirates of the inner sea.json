@@ -1,0 +1,71 @@
+{
+	"weapons":[
+		{
+			"name":"knife",
+			"size":4,
+			"desc":"",
+			"damage":{"physical":"1d4"},
+			"crit_range":19,
+			"crit_mult":2,
+			"type":"piercing or slashing",
+			"prof":0,
+			"group":["light blade","thrown"],
+			"category":"light",
+			"equip_type":"weapon",
+			"special":["fragile"],
+			"weight":1,
+			"range":10,
+			"price":2
+		},
+		{
+			"name":"hook hand",
+			"size":4,
+			"desc":"Pirates who lose a hand in the course of their adventures sometimes attach hooks to their wrists. Your opponent cannot use a disarm action to disarm you of a hook hand. Hook hands generally do not interfere with routine activities, but you cannot use another weapon two-handed if you have a hook hand attached. You cannot use any type of weapon if both your hands are hook hands, and you may have trouble with routine activities. Hook hands presume that the wrist joint is intact. If the wrist joint is not intact, use the prosthesis statistics instead. It takes 1 minute to attach or detach a hook hand.",
+			"damage":{"physical":"1d4"},
+			"crit_range":20,
+			"crit_mult":2,
+			"type":"slashing",
+			"prof":0,
+			"group":["close"],
+			"special":["disarm","attached"],
+			"category":"light",
+			"equip_type":"weapon",
+			"weight":1,
+			"range":0,
+			"price":10
+		},
+		{
+			"name":"boarding pike",
+			"size":4,
+			"desc":"A boarding pike is an 8-foot-long pole topped with a foot-long tapered metal tip. Boarding pikes look much like longspears, but the metal pike is designed to flow into the wooden haft, leaving no grooves, collars, or spikes that could trap salt water and cause rust. Boarding pikes are mainly used defensively, to repel boarding actions. The pikes are kept in brackets around the mast, so sailors can quickly grab pikes and brace them against the gunwale to repel boarders.",
+			"damage":{"physical":"1d8"},
+			"crit_range":20,
+			"crit_mult":3,
+			"type":"piercing",
+			"prof":0,
+			"group":["spear"],
+			"special":["brace","reach"],
+			"category":"two-handed",
+			"equip_type":"weapon",
+			"weight":9,
+			"range":0,
+			"price":8
+		},
+        {
+            "name":"bayonet",
+			"size":4,
+			"desc":"Bayonets are close combat weapons designed to fit into the grooves or muzzles of crossbows and firearms. They allow you to make melee attacks with these weapons but render them temporarily useless as ranged weapons. Attaching or removing a bayonet is a move action.",
+			"damage":{"physical":"1d6"},
+			"crit_range":20,
+			"crit_mult":2,
+			"type":"piercing",
+			"prof":0,
+			"group":["light blade","close"],
+			"category":"two-handed",
+			"equip_type":"weapon",
+			"weight":1,
+			"range":0,
+			"price":5
+        }
+]
+}

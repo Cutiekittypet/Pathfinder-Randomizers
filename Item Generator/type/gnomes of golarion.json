@@ -1,0 +1,26 @@
+{
+	"shield":[
+		{
+			"name":"snarlshield",
+			"size":4,
+			"desc":"The snarlshield is a heavy shield that features a dozen rods protruding from its surface.",
+			"subtype":"shield",
+			"equip_type":"armor",
+			"group":["close","tribal"],
+			"check_penalty":-3,
+			"prof":2,
+			"damage":{"physical":"1d4"},
+			"special":["disarm"],
+			"crit_range":20,
+			"crit_mult":2,
+			"type":"bludgeoning",
+			"category":"one-handed",
+			"bonus":2,
+			"max_dex":-1,
+			"spell_failure":15,
+			"speed_penalty":0,
+			"weight":10,
+			"price":15
+		}
+]
+}

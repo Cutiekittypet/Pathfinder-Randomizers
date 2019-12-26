@@ -1,0 +1,16 @@
+[
+    {
+        "name":"blackwood",
+        "ac_base":1,
+        "shield_mod":0,
+        "max_dex":5,
+        "armor_check":-1,
+        "spell_failure":20,
+        "weight_mod":0.5,
+        "speed_mod":-1,
+        "damage_up":-1,
+        "price_mod":3,
+        "armor_prof":2,
+        "special":["ignore 1 DR (water subtype)"]
+    }
+]

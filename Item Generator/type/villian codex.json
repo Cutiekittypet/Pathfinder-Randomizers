@@ -1,0 +1,21 @@
+{
+	"weapons":[
+		{
+			"name":"hook hand",
+			"size":4,
+			"desc":"Pirates who lose a hand in the course of their adventures sometimes attach hooks to their wrists. Your opponent cannot use a disarm action to disarm you of a hook hand. Hook hands generally do not interfere with routine activities, but you cannot use another weapon two-handed if you have a hook hand attached. You cannot use any type of weapon if both your hands are hook hands, and you may have trouble with routine activities. Hook hands presume that the wrist joint is intact. If the wrist joint is not intact, use the prosthesis statistics instead. It takes 1 minute to attach or detach a hook hand.",
+			"damage":{"physical":"1d4"},
+			"crit_range":20,
+			"crit_mult":2,
+			"type":"slashing",
+			"prof":0,
+			"group":["close"],
+			"special":["disarm","attached"],
+			"category":"light",
+			"equip_type":"weapon",
+			"weight":1,
+			"range":0,
+			"price":10
+		}
+]
+}

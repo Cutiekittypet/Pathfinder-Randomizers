@@ -1,0 +1,151 @@
+[
+    {
+        "prefix":["harmonious","radiant","celestial","zealous"],
+        "suffix":["harmony","radiance"],
+        "weapon":
+        {
+            "damage_bonus":{"sacred":2}
+        },
+        "equipment":
+        {
+            "resistance":{"unholy":2},
+            "skill":{"Saving Throw (Negative)":2},
+            "special":["holy symbol"]
+        },
+        "desc":"If this item is a container, water inserted can be turned into holy water as a free action."
+    },
+    {
+        "prefix":["monastic","devout","holy","heavenly","good"],
+        "suffix":["devoutness","holiness","the heavens","heaven","elysium"],
+        "weapon":
+        {
+            "damage_bonus":{"holy":1}
+        },
+        "equipment":
+        {
+            "resistance":{"unholy":1},
+            "skill":{"Saving Throw (Negative)":1},
+            "special":["holy symbol"]
+        }
+    },
+    {
+        "prefix":["acidic"],
+        "suffix":["acid"],
+        "weapon":
+        {
+            "damage_bonus":{"acid":1}
+        },
+        "equipment":
+        {
+            "resistance":{"acid":1}
+        }
+    },
+    {
+        "prefix":["poisonous","venomous","virulent","pestilent"],
+        "suffix":["poison","venom","pestilence"],
+        "weapon":{},
+        "equipment":
+        {
+            "special":["poison (injury, DC 12, 1/rd for 3 rounds, 1d2 CON damage, 1 save)"]
+        }
+    },
+    {
+        "prefix":["burning","flaming","fire","firey","flaming"],
+        "suffix":["burning","being on fire","fire","flame"],
+        "weapon":
+        {
+            "damage_bonus":{"fire":2}
+        },
+        "equipment":
+        {
+            "resistance":{"cold":2},
+            "special":["firestarter"]
+        }
+    },
+    {
+        "prefix":["frozen","frost","frostburn","freezing","frosty"],
+        "suffix":["frost","frostburn","freezing"],
+        "weapon":
+        {
+            "damage_bonus":{"cold":2}
+        },
+        "equipment":
+        {
+            "resistance":{"fire":2}
+        }
+    },
+    {
+        "prefix":["malign","malignant","evil","unholy","nefarious","idolatrous"],
+        "suffix":["evil","the underworld","nefariousness","idolatry"],
+        "weapon":
+        {  
+            "damage_bonus":{"unholy":1}
+        },
+        "equipment":
+        {
+            "resistance":{"holy":1},
+            "skill":{"Saving Throw (Positive)":1},
+            "special":["unholy symbol"]
+        }
+    },
+    {
+        "prefix":["sacrilegious","malicious","maleficent","malefic","iconoclastic"],
+        "suffix":["sacrilege","malice","maleficence","iconoclasm"],
+        "weapon":
+        {
+            "damage_bonus":{"profane":2}
+        },
+        "equipment":
+        {
+            "resistance":{"holy":2},
+            "skill":{"Saving Throw (Positive)":2},
+            "special":["unholy symbol"]
+        },
+        "desc":"If this item is a container, water inserted can be turned into curse water as a free action."
+    },
+    {
+        "prefix":["aqueous","sialoquent","moist","wet","damp","uncle ben's","lubricated"],
+        "suffix":["moistness","lotion","dampness","moisture cream","lubricant"],
+        "weapon":{},
+        "equipment":
+        {
+            "resistance":{"fire":1,"cold":-1}
+        }
+    },
+    {
+        "prefix":["dead","unliving","undead","skeleton"],
+        "suffix":["death","dead people","skeletons"],
+        "weapon":
+        {
+            "damage":{"negative":"1d4"}
+        },
+        "equipment":
+        {
+            "resistance":{"positive":1}
+        }
+    },
+    {
+        "prefix":["anarchic","antidisestablishmentarianistic"],
+        "suffix":["anarchy","antidisestablishmentarianism"],
+        "weapon":
+        {
+            "damage_bonus":{"chaos":1}
+        },
+        "equipment":
+        {
+            "resistance":{"lawful":1}
+        }
+    },
+    {
+        "prefix":["circumscribed","orderly","lawful"],
+        "suffix":["order","law"],
+        "weapon":
+        {
+            "damage_bonus":{"lawful":1}
+        },
+        "equipment":
+        {
+            "resistance":{"chaos":1}
+        }
+    }
+]

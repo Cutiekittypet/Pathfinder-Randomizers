@@ -1,0 +1,21 @@
+{
+	"weapons":[
+		{
+			"name":"traveling kettle",
+			"size":4,
+			"desc":" ",
+			"damage":{"physical":"1d6"},
+			"crit_range":20,
+			"crit_mult":2,
+			"type":"bludgeoning",
+			"prof":0,
+			"group":["monk"],
+			"special":["monk"],
+			"category":"light",
+			"equip_type":"weapon",
+			"weight":2,
+			"range":0,
+			"price":5
+		}
+]
+}

@@ -1,0 +1,55 @@
+{
+    "weapons":[
+        {
+			"name":"kumade",
+			"size":4,
+			"desc":"Adapted from a garden rake, the kumade consists of a wood or bamboo pole topped with a metal claw. The rake head doubles as a grappling hook. When a kumade is secured to a surface, such as a rafter or window sill, its handle can be climbed as a 5-foot length of rope.",
+			"damage":{"physical":"1d6"},
+			"crit_range":20,
+			"crit_mult":3,
+			"type":"piercing",
+			"prof":0,
+			"group":["axe"],
+			"special":["grapple"],
+			"category":"two-handed",
+			"equip_type":"weapon",
+			"weight":4,
+			"range":0,
+			"price":5
+		},
+        {
+			"name":"kumade",
+			"size":4,
+			"desc":"This weapon acts as a kumade, but the handle consists of bamboo sections held together by a taut rope running through the center. Releasing the rope is a standard action that provokes attacks of opportunity and causes the weapon to collapse into a bundle that fits into a backpack. Reassembling the collapsible kumade requires a full-round action that provokes attacks of opportunity.",
+			"damage":{"physical":"1d6"},
+			"crit_range":20,
+			"crit_mult":3,
+			"type":"piercing",
+			"prof":0,
+			"group":["axe"],
+			"special":["grapple"],
+			"category":"two-handed",
+			"equip_type":"weapon",
+			"weight":4,
+			"range":0,
+			"price":10
+		},
+        {
+			"name":"weighted spear",
+			"size":4,
+			"desc":"This pole has a spear head at one end and a mace head at the other. It can be wielded like a standard spear (though it isn’t balanced for throwing), or it can be used as a double weapon, alternately thrusting and bashing.",
+			"damage":{"physical":"1d8"},
+			"crit_range":20,
+			"crit_mult":3,
+			"type":"bludgeoning or piercing",
+			"prof":0,
+			"group":["double","spear"],
+			"special":["brace","double"],
+			"category":"two-handed",
+			"equip_type":"weapon",
+			"weight":4,
+			"range":0,
+			"price":10
+		}
+    ]
+}

@@ -1,0 +1,65 @@
+{
+	"weapons":[
+		{
+			"name":"lantern staff",
+			"size":4,
+			"desc":"This long metal staff has reservoirs for lamp oil, and a lantern-like structure at its head. The lantern staff is fueled as and provides light as a hooded lantern. While lit, attacks with the lantern staff deal 1 point of fire damage in addition to the normal damage. Any effects that apply to a quarterstaff, except those that require it be used as a double weapon, also apply to a lantern staff.",
+			"damage":{"physical":"1d6"},
+			"crit_range":20,
+			"crit_mult":3,
+			"type":"bludgeoning",
+			"prof":0,
+			"group":["hammer"],
+			"category":"two-handed",
+			"equip_type":"weapon",
+			"weight":9,
+			"range":0,
+			"price":15
+		}
+	],
+    "shield":[
+	{
+		"name":"dwarven war-shield",
+		"size":4,
+		"desc":"This shield's sides are cut into jagged angles and honed to razor sharpness. Dwarven skirmishers often wield these shields in pairs, savagely hacking opponents to pieces, while some dwarven scoundrels enjoy the shields' imposing appearance and ease of use. If you have the Two-Weapon Fighting feat and are wielding two dwarven war-shields, increase the higher of the two shield bonuses by 1. You lose this benefit for 1 round when you make a shield bash with one or both dwarven war-shields (unless you have the Improved Shield Bash feat or a similar benefit). A hand holding a dwarven war-shield can't be used for anything else. A dwarven war-shield gains no benefit from shield spikes.",
+		"subtype":"shield",
+		"equip_type":"armor",
+		"group":["close"],
+		"check_penalty":-1,
+		"prof":4,
+		"damage":{"physical":"1d6"},
+		"crit_range":20,
+		"crit_mult":2,
+		"type":"piercing or slashing",
+		"category":"light",
+		"bonus":2,
+		"max_dex":-1,
+		"spell_failure":15,
+		"speed_penalty":0,
+		"weight":10,
+		"price":15
+	},
+	{
+		"name":"snarlshield",
+		"size":4,
+		"desc":"The snarlshield is a heavy shield that features a dozen rods protruding from its surface.",
+		"subtype":"shield",
+		"equip_type":"armor",
+		"group":["close","tribal"],
+		"check_penalty":-3,
+		"prof":2,
+		"damage":{"physical":"1d4"},
+		"special":["disarm"],
+		"crit_range":20,
+		"crit_mult":2,
+		"type":"bludgeoning",
+		"category":"one-handed",
+		"bonus":2,
+		"max_dex":-1,
+		"spell_failure":15,
+		"speed_penalty":0,
+		"weight":10,
+		"price":15
+	}
+    ]
+}

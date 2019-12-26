@@ -1,0 +1,59 @@
+{
+	"weapons":[
+		{
+			"name":"stake",
+			"size":4,
+			"desc":"This close combat weapon is just a sharpened piece of material.",
+			"damage":{"physical":"1d4"},
+			"crit_range":20,
+			"crit_mult":2,
+			"type":"piercing",
+			"prof":0,
+			"group":["close"],
+			"category":"light",
+			"equip_type":"weapon",
+			"weight":1,
+			"range":0,
+			"price":0.1
+		},
+		{
+			"name":"blowgun",
+			"size":4,
+			"desc":"Blowguns are generally used to deliver debilitating (but rarely fatal) poisons from a distance. They are nearly silent when fired.",
+			"damage":{"physical":"1d2"},
+			"crit_range":20,
+			"crit_mult":2,
+			"type":"piercing",
+			"prof":0,
+			"group":["thrown"],
+			"category":"ranged",
+			"equip_type":"weapon",
+			"weight":1,
+			"range":20,
+			"price":2
+		}
+	],
+	"shield":[
+        {
+            "name":"klar",
+            "size":4,
+            "desc":"The traditional form of this tribal weapon is a short blade bound to the skull of a large horned lizard, but a skilled smith can craft one entirely out of metal. A traditional klar counts as a light wooden shield with armor spikes; a metal klar counts as a light steel shield with armor spikes. You can bash an opponent with a light shield. If you use your shield as a weapon, you lose its Armor Class bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
+            "subtype":"shield",
+            "equip_type":"armor",
+            "group":["close","tribal"],
+            "check_penalty":-1,
+            "prof":2,
+            "damage":{"physical":"1d4"},
+            "crit_range":20,
+            "crit_mult":2,
+            "type":"piercing",
+            "category":"one-handed",
+            "bonus":1,
+            "max_dex":-1,
+            "spell_failure":5,
+            "speed_penalty":0,
+            "weight":6,
+            "price":12
+        }
+	]
+}
