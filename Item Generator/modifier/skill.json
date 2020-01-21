@@ -9,12 +9,12 @@
         }
     },
     {
-        "prefix":["wily","mendacious","deceitful"],
-        "suffix":["deceit"],
+        "prefix":["hippopotomonstrosesquippedaliophobic","wordy"],
+        "suffix":["hippopotomonstrosesquippedaliophobia","words","language"],
         "weapon":{},
         "equipment":
         {
-            "skill":{"Disguise":2,"Bluff":2}
+            "skill":{"Linguistics":1}
         }
     },
     {
@@ -88,18 +88,6 @@
         "equipment":
         {
             "skill":{"Intimidate":2,"Diplomacy":2}
-        }
-    },
-    {
-        "prefix":["precarious","lucky","eclectic"],
-        "suffix":["precariousness","luck"],
-        "weapon":
-        {
-            "attack":{"luck":1}
-        },
-        "equipment":
-        {
-            "skill":{"All":1}
         }
     },
     {

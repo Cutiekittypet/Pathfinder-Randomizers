@@ -1,0 +1,342 @@
+[
+    {
+        "prefix":["adaptive"],
+        "suffix":["adaptation"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["adaptive"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["dry load","dry loading"],
+        "suffix":["dry loading"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["dry load"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["sniping"],
+        "suffix":["sniping"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["sniping"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["ambushing"],
+        "suffix":["ambushing"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["ambushing"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["conserving"],
+        "suffix":["conservation"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["conserving"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["distance"],
+        "suffix":["distance"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["distance"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["driving"],
+        "suffix":["driving"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["driving"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["lucky"],
+        "suffix":["luck"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["lucky"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["plummeting"],
+        "suffix":["plummeting"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["plummeting"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["reliable"],
+        "suffix":["reliability"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["reliable"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["returning"],
+        "suffix":["returning"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["returning"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["seeking"],
+        "suffix":["seeking"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["seeking"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["shadowshooting"],
+        "suffix":["shadowshooting"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["shadowshooting"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["sacred"],
+        "suffix":["sacredness"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["sacred"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["spell hurling"],
+        "suffix":["spell hurling"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["spell hurling"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["veering"],
+        "suffix":["veering"],
+        "enchant":1,
+        "weapon":
+        {
+            "special":["veering"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["phantom ammunition"],
+        "suffix":["phantom ammunition"],
+        "enchant":2,
+        "weapon":
+        {
+            "special":["phantom ammunition"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["improved sniping"],
+        "suffix":["improved sniping"],
+        "enchant":2,
+        "weapon":
+        {
+            "special":["improved sniping"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["cyclonic"],
+        "suffix":["cyclonic"],
+        "enchant":2,
+        "weapon":
+        {
+            "special":["cyclonic"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["dazzling"],
+        "suffix":["dazzlement"],
+        "enchant":2,
+        "weapon":
+        {
+            "special":["dazzling"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["lesser designating"],
+        "suffix":["lesser designation"],
+        "enchant":2,
+        "weapon":
+        {
+            "special":["lesser designating"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["endless ammunition"],
+        "suffix":["endless ammunition"],
+        "enchant":2,
+        "weapon":
+        {
+            "special":["endless ammunition"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["glitterwake"],
+        "suffix":["glitterwake"],
+        "enchant":2,
+        "weapon":
+        {
+            "special":["glitterwake"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["sniping"],
+        "suffix":["sniping"],
+        "enchant":2,
+        "weapon":
+        {
+            "special":["sniping"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["greater sniping"],
+        "suffix":["greater sniping"],
+        "enchant":3,
+        "weapon":
+        {
+            "special":["greater sniping"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["greater lucky"],
+        "suffix":["greater luck"],
+        "enchant":3,
+        "weapon":
+        {
+            "special":["greater lucky"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["greater reliable"],
+        "suffix":["greater reliability"],
+        "enchant":3,
+        "weapon":
+        {
+            "special":["greater reliable"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["sonic boom"],
+        "suffix":["the sonic boom"],
+        "enchant":3,
+        "weapon":
+        {
+            "special":["sonic boom"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["tailwind"],
+        "suffix":["the tailwind"],
+        "enchant":3,
+        "weapon":
+        {
+            "special":["tailwind"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["greater designating"],
+        "suffix":["greater designation"],
+        "enchant":4,
+        "weapon":
+        {
+            "special":["greater designating"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["nimble shot"],
+        "suffix":["the nimble shot"],
+        "enchant":4,
+        "weapon":
+        {
+            "special":["nimble shot"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["second chance"],
+        "suffix":["the second chance"],
+        "enchant":4,
+        "weapon":
+        {
+            "special":["second chance"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["heart-piercing"],
+        "suffix":["heart-piercing"],
+        "enchant":5,
+        "weapon":
+        {
+            "special":["heart-piercing"]
+        },
+        "equipment":{}
+    },
+    {
+        "prefix":["interfering"],
+        "suffix":["interfering"],
+        "enchant":5,
+        "weapon":
+        {
+            "special":["interfering"]
+        },
+        "equipment":{}
+    }
+]
