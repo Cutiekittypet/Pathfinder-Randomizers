@@ -25,6 +25,7 @@ def rollItem():
 def rollModifier():
     global rolls
     global current_modifiers
+    global magic
     rolls -= 1
     roll = randint(0, 15)
     if roll < 3:
@@ -33,8 +34,12 @@ def rollModifier():
         rolls += 2
         return
     else:
-        modifiers.append(mod_tree_active[randint(0, len(mod_tree_active)-1)])
-        current_modifiers += 1
+        mod = {}
+        mod = mod_tree_active[randint(0, len(mod_tree_active)-1)]
+        while mod['enchant'] > magic:
+            mod = mod_tree_active[randint(0, len(mod_tree_active)-1)]
+        modifiers.append(mod)
+        current_modifiers += mod['enchant']
         return
 
 # roll for and apply material
@@ -335,8 +340,10 @@ def generateItem():
     global typ_tree_active
     if (len(mat_tree_active) < 1) or (len(mod_tree_active) < 1) or (len(typ_tree_active) < 1):
         return
+    base_item = None
     base_item = rollItem()
     applyMaterial(base_item)
+    global magic
     magic = int(spnbox.get())
     global rolls
     global current_modifiers
@@ -365,7 +372,7 @@ def generateItem():
                 item_name = item_name + " of " + mod['suffix'][randint(0, len(mod['suffix'])-1)]
         if 'desc' in mod:
             item_desc = item_desc + " " + mod['desc']
-    base_item['price'] = round(base_item['price'] * (len(modifiers) + 1), 4)
+    base_item['price'] = round(base_item['price'] * ((current_modifiers * current_modifiers) + 1), 4)
     item_name = capwords(item_name)
     # adjust size to max/min, and upgrade/downgrade damage dice appropriately
     if(base_item['size'] < 5):
